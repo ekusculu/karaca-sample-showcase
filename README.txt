@@ -1,13 +1,13 @@
-Karaca Sample Card Showcase - QR focused version (v6)
+Karaca Sample Card Showcase - v10
 
-Updates in this version:
-- homepage main visual now uses contain behavior so edges are visible
-- visual reference images now show more fully without cropping
-- homepage copy no longer says exhibition use
-- Tinted Tempered Marine Glass sample page added as the next product
-- current lumbuz page kept with catalog download under Datasheets
+Updates:
+- Transparent logo version (white background removed)
+- Typography refreshed with Manrope web font
+- Homepage hero adjusted for better desktop/mobile presentation
+- Homepage product cards simplified and redesigned
+- model-viewer script added to 3D pages
+- Tinted Tempered Marine Glass page updated and GLB kept in place
 
-Upload these to the root of your GitHub Pages repository:
-- index.html
-- assets/
-- products/
+Notes:
+- 3D models are view-only on the page.
+- Catalog and report PDFs remain downloadable where applicable.
