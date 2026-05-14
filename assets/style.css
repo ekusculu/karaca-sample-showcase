@@ -76,7 +76,7 @@ model-viewer{width:100%;height:100%;min-height:520px;border-radius:22px;backgrou
 .product-tile{background:#fff;border-radius:22px;padding:22px;border:1px solid var(--line);box-shadow:0 12px 34px rgba(0,0,0,.08)}
 .product-tile h3{margin:0 0 8px;color:var(--navy)}
 .product-tile p{margin:0;color:var(--muted);line-height:1.55}
-.home-hero-image{border-radius:22px;width:100%;height:auto;max-height:390px;object-fit:contain;background:#ffffff;padding:10px}
+.home-hero-image{border-radius:22px;width:100%;height:auto;max-height:520px;object-fit:contain;background:#ffffff;padding:0}
 .label-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
 .pill{padding:8px 12px;border-radius:999px;background:#f2f7fa;color:#3b5a6d;font-size:13px;font-weight:700}
 @media(max-width:900px){
@@ -126,3 +126,27 @@ model-viewer{width:100%;height:100%;min-height:520px;border-radius:22px;backgrou
 .doc-card h3{margin:0 0 8px;color:var(--navy);font-size:18px}
 .doc-card p{margin:0 0 16px;color:var(--muted);line-height:1.6}
 @media(max-width:900px){.doc-list{grid-template-columns:1fr}}
+
+.topbar .back{
+  border:1px solid rgba(182,207,223,.45);
+  border-radius:999px;
+  padding:10px 16px;
+  color:#d7edf8;
+  font-weight:800;
+  background:rgba(255,255,255,.04);
+}
+.topbar .back:hover{
+  border-color:#16a6bd;
+  color:#ffffff;
+  background:rgba(22,166,189,.14);
+}
+.home-page .hero{
+  grid-template-columns:.86fr 1.14fr;
+}
+.home-page .hero-viewer{
+  align-items:center;
+  justify-content:center;
+}
+@media(max-width:900px){
+  .home-page .hero{grid-template-columns:1fr}
+}
