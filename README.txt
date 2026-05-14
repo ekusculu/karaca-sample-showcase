@@ -1,13 +1,10 @@
-Karaca Sample Card Showcase - v10
+Karaca Sample Card Showcase - v11 premium
 
 Updates:
-- Transparent logo version (white background removed)
-- Typography refreshed with Manrope web font
-- Homepage hero adjusted for better desktop/mobile presentation
-- Homepage product cards simplified and redesigned
-- model-viewer script added to 3D pages
-- Tinted Tempered Marine Glass page updated and GLB kept in place
-
-Notes:
-- 3D models are view-only on the page.
-- Catalog and report PDFs remain downloadable where applicable.
+- Cleaner premium CSS and typography
+- Logo simplified to text mark in header
+- Unnecessary captions and viewer notes hidden
+- Clear Monolithic Marine Window page added
+- Clear monolithic GLTF + BIN converted to GLB
+- Fire-rated A0 / A60 options displayed side-by-side
+- Homepage copy and cards simplified
