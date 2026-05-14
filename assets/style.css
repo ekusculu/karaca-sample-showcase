@@ -120,3 +120,9 @@ model-viewer{width:100%;height:100%;min-height:520px;border-radius:22px;backgrou
   color:var(--muted);
   line-height:1.7;
 }
+
+.doc-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.doc-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px}
+.doc-card h3{margin:0 0 8px;color:var(--navy);font-size:18px}
+.doc-card p{margin:0 0 16px;color:var(--muted);line-height:1.6}
+@media(max-width:900px){.doc-list{grid-template-columns:1fr}}
