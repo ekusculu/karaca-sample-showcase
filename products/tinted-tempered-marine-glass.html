@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="../index.html">KARACA <small>SAMPLE SHOWCASE</small></a>
+    <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/logos/karaca-logo.svg" alt="Karaca Ship Windows & Wipers"><span class="brand-text">KARACA <small>SAMPLE SHOWCASE</small></span></a>
     <a class="back" href="../index.html">All samples</a>
   </header>
 
@@ -31,16 +31,8 @@
         </div>
 
         <div class="hero-viewer">
-          <div class="placeholder-visual">
-            <div class="placeholder-visual-inner">
-              <h3>Tinted Tempered Marine Glass</h3>
-              <p>
-                Product visual will be updated with the final render or sample photograph.
-                The page structure is ready for the next material you share.
-              </p>
-            </div>
-          </div>
-          <p class="viewer-note">Visual placeholder · final render / photo can be added next</p>
+          <model-viewer src="../assets/models/tinted-tempered-marine-glass.glb" camera-controls auto-rotate rotation-per-second="24deg" shadow-intensity="1" exposure="1" environment-image="neutral" ar ar-modes="webxr scene-viewer quick-look" alt="3D model of Tinted Tempered Marine Glass"></model-viewer>
+          <p class="viewer-note">Interactive 3D + AR view · Rotate, zoom or view in AR on supported devices</p>
         </div>
       </section>
 
@@ -128,26 +120,48 @@
       </section>
 
       <section class="section">
-        <div class="note-card">
-          <h2>Visuals and reports</h2>
+        <div class="section-head">
+          <h2>Performance focus</h2>
           <p>
-            The structure for this sample card is ready. Once you share the tinted glass
-            render, sample photo or any relevant report, this page can be completed in the same style.
+            Tinted and coated glass solutions can support solar control, glare reduction,
+            privacy and exterior appearance depending on the selected glass build-up.
           </p>
+        </div>
+        <div class="info-strip">
+          <div>
+            <h3>Solar and visual comfort</h3>
+            <p>
+              Reflective and tinted glass options can help reduce solar heat gain and control
+              sunlight intensity while supporting a refined exterior appearance.
+            </p>
+          </div>
+          <div>
+            <h3>Marine glazing selection</h3>
+            <p>
+              Final selection should consider daylight transmittance, outdoor reflectance,
+              solar factor, U-value and project-specific glass build-up.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="section" id="datasheets">
-        <div class="download-card">
-          <div>
-            <h2>Datasheets</h2>
-            <p>
-              Download Karaca’s general ship windows and wipers catalog. Product-specific
-              performance reports can also be added here later when available.
-            </p>
-          </div>
-          <div class="download-actions">
+        <div class="section-head">
+          <h2>Datasheets</h2>
+          <p>
+            Download Karaca catalog and coated glass performance guide. 3D models remain view-only on QR sample pages.
+          </p>
+        </div>
+        <div class="doc-list">
+          <div class="doc-card">
+            <h3>Karaca Catalog</h3>
+            <p>General product catalog covering ship windows, side scuttles, glazing options and wiper systems.</p>
             <a class="btn primary" href="../assets/docs/karaca-ship-windows-wipers-catalog.pdf" download>Download catalog</a>
+          </div>
+          <div class="doc-card">
+            <h3>Coated Glass Performance Guide</h3>
+            <p>Performance data and recommended marine applications for reflective, low-E and solar control glass solutions.</p>
+            <a class="btn primary" href="../assets/docs/karaca-coated-glass-performance-guide.pdf" download>Download performance report</a>
           </div>
         </div>
       </section>
