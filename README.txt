@@ -1,14 +1,12 @@
-Karaca Sample Card Showcase - v12 premium
+Karaca Sample Card Showcase - v14 laminated update
 
-Updates:
-- Background and overall visual style refined
-- Clear glass model moved to Clear Tempered Marine Glass page
-- New Clear Monolithic Marine Window GLTF converted to GLB and added
-- Clear Tempered Marine Glass page added
-- Clear Monolithic Marine Window page updated with the new model
-- A0 / A60 shown side-by-side
-- Visual captions hidden for cleaner presentation
+- Laminated GLTF converted to GLB
+- Laminated Marine Safety Glass page added
+- Example laminated performance report added
+- Product card style refined
+- Helper texts removed
 
 Conversion notes:
-Missing buffers: ['0-7-P016275-1.bin']
-Conversion failed: FileNotFoundError(2, 'No such file or directory')
+Laminated GLB: 127756 bytes
+tek_cam buffers missing: ['0-7-P016275-1.bin']
+Clear monolithic reconversion failed: FileNotFoundError(2, 'No such file or directory')
