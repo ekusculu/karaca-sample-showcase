@@ -14,3 +14,9 @@ v17 updates:
 - Laminated 'Interlayers' text changed to inline hyphen-separated format
 - Added 1.90 mm PVB option
 Updated laminated GLB created successfully (246788 bytes).
+
+v18 updates:
+- Laminated interlayer text updated to include PVB / SGP / DG41 / PU and 1.90 mm
+- Added helpful viewer note under 3D sections
+- Added clear monolithic product visuals section with uploaded images
+- Added Bonded Marine Glass page and inserted glass bonding detail image
