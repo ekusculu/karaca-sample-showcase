@@ -626,3 +626,7 @@ model-viewer{
   border-radius:4px;
   font-weight:800;
 }
+
+/* v16 text refinements */
+.doc-list{align-items:stretch}
+.doc-card{min-height:190px}

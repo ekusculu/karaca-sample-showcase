@@ -1,13 +1,10 @@
-Karaca Sample Card Showcase - v15 double glazed update
+Karaca Sample Card Showcase - v16 text and laminated GLB update
 
-- Double Glazed Marine Window page added
-- Double glazed GLTF converted to GLB, skipping/creating empty 0 KB buffers where needed
-- Clear Monolithic model reconverted where possible
-- Product visuals styling improved
-- A0 / A30 / A60 shown together
+- New laminated GLTF converted to GLB
+- Fire-rated and bulletproof options removed from Clear Tempered Marine Glass
+- Laminated technical text revised: glass thickness range, PVB thickness options, SGP/DG41 option
+- Laminated datasheets updated with catalog, example performance report and energy-efficient glass guide
+- General product text polished
 
 Notes:
-Created empty buffer(s) for clear monolithic: ['0-7-P016275-1.bin']
-Clear Monolithic Marine Window GLB: 2863432 bytes, geometries: 17
-Created empty buffer(s) for double glazed: ['0-15-P016281-3.bin']
-Double Glazed Marine Window GLB: 286028 bytes, geometries: 18
+New laminated GLB converted: 244032 bytes, geometries: 5
