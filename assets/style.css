@@ -155,7 +155,7 @@ model-viewer{
   border-radius:28px;
   background:linear-gradient(180deg,#ffffff,#f8fbfd);
 }
-.viewer-note{display:none}
+.viewer-note{display:block;margin-top:12px;color:#6b7f91;font-size:14px;line-height:1.5;text-align:center;font-weight:500}
 
 .home-page .hero{
   grid-template-columns:1fr 1fr;
@@ -684,3 +684,13 @@ model-viewer{
   .gallery{grid-template-columns:1fr;}
   .gallery img{height:280px;}
 }
+
+/* v19 polish */
+.product-tile{padding-top:18px;min-height:238px;}
+.product-thumb{position:absolute;top:16px;right:16px;width:92px;height:58px;border-radius:14px;object-fit:cover;background:#f7fbfd;border:1px solid #dce8ef;box-shadow:0 8px 20px rgba(7,17,29,.06)}
+.product-tile h3{max-width:72%; margin-top:62px;}
+.product-category{position:relative;z-index:2;}
+.gallery figure{padding:18px;background:linear-gradient(180deg,#fff 0%,#f8fbfd 100%);box-shadow:0 12px 28px rgba(7,17,29,.05)}
+.gallery img,.gallery video{max-height:430px;border-radius:18px;padding:8px;background:#fff;}
+.gallery figcaption,.media-caption{display:none!important;}
+@media (max-width:900px){.product-thumb{width:84px;height:52px}.product-tile h3{margin-top:56px;max-width:68%;font-size:20px}}

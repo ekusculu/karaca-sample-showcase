@@ -20,3 +20,6 @@ v18 updates:
 - Added helpful viewer note under 3D sections
 - Added clear monolithic product visuals section with uploaded images
 - Added Bonded Marine Glass page and inserted glass bonding detail image
+
+
+v19 updates: removed standalone bonded card from homepage; added thumbnails to sample page cards; moved bonding detail image into clear/tinted tempered glass pages; made viewer note visible; removed product visual captions.
