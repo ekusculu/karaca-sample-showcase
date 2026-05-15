@@ -23,3 +23,11 @@ v18 updates:
 
 
 v19 updates: removed standalone bonded card from homepage; added thumbnails to sample page cards; moved bonding detail image into clear/tinted tempered glass pages; made viewer note visible; removed product visual captions.
+
+
+v20 updates:
+- Viewer note forced visible under model-viewer sections.
+- Product visual captions removed from HTML and hidden by CSS.
+- Real uploaded visuals added for fixed side scuttle, straight line wiper and clear monolithic window.
+- Homepage product card thumbnails updated with real uploaded visuals.
+- Standalone Bonded Marine Glass page removed; bonding detail remains inside glass pages.
