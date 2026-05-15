@@ -1,12 +1,13 @@
-Karaca Sample Card Showcase - v14 laminated update
+Karaca Sample Card Showcase - v15 double glazed update
 
-- Laminated GLTF converted to GLB
-- Laminated Marine Safety Glass page added
-- Example laminated performance report added
-- Product card style refined
-- Helper texts removed
+- Double Glazed Marine Window page added
+- Double glazed GLTF converted to GLB, skipping/creating empty 0 KB buffers where needed
+- Clear Monolithic model reconverted where possible
+- Product visuals styling improved
+- A0 / A30 / A60 shown together
 
-Conversion notes:
-Laminated GLB: 127756 bytes
-tek_cam buffers missing: ['0-7-P016275-1.bin']
-Clear monolithic reconversion failed: FileNotFoundError(2, 'No such file or directory')
+Notes:
+Created empty buffer(s) for clear monolithic: ['0-7-P016275-1.bin']
+Clear Monolithic Marine Window GLB: 2863432 bytes, geometries: 17
+Created empty buffer(s) for double glazed: ['0-15-P016281-3.bin']
+Double Glazed Marine Window GLB: 286028 bytes, geometries: 18
