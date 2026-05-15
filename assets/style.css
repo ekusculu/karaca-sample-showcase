@@ -630,3 +630,11 @@ model-viewer{
 /* v16 text refinements */
 .doc-list{align-items:stretch}
 .doc-card{min-height:190px}
+
+
+.inline-spec-line{
+  color:#5f7087;
+  font-size:1.02rem;
+  line-height:1.8;
+  font-weight:500;
+}

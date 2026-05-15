@@ -8,3 +8,9 @@ Karaca Sample Card Showcase - v16 text and laminated GLB update
 
 Notes:
 New laminated GLB converted: 244032 bytes, geometries: 5
+
+v17 updates:
+- Laminated GLB replaced with the newly uploaded model
+- Laminated 'Interlayers' text changed to inline hyphen-separated format
+- Added 1.90 mm PVB option
+Updated laminated GLB created successfully (246788 bytes).
